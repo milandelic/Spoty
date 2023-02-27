@@ -1,0 +1,19 @@
+.playerContainer {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+}
+
+.playerContent {
+    max-width: calc(100% - 40px);
+    margin: auto;
+    background-color: var(--secondary-background-color);
+    color: var(--text-color);
+}
+
+.notFound {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,33 @@
+.settingsContainer {
+    padding: 40px 0;
+}
+
+.settingsRow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+}
+
+.settingsInput {
+    padding: 10px 5px;
+    margin-left: 10px;
+    width: 100px;
+    color: var(--secondary-text-color);
+    border-radius: var(--border-radius);
+    border: solid 1px var(--secondary-border-color);
+    text-align: right;
+}
+
+.setingsButton {
+    padding: 10px 5px;
+    background-color: var(--button-background-color);;
+    color: var(--text-color);;
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    width: 100px;
+    text-align: center;
+}

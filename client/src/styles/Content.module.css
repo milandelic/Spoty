@@ -1,0 +1,10 @@
+.contetntContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 900px) {
+    .contetntContainer {
+        max-width: 90%;
+    }
+}

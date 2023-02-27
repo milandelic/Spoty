@@ -1,0 +1,15 @@
+.content {
+    overflow: auto;
+    height: calc(100vh - 120px);
+}
+
+.mainContainer {
+    max-width: var(--body-width);
+    margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .mainContainer {
+        margin: 0 5%;
+    }
+}

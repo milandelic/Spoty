@@ -1,0 +1,42 @@
+.contetntContainer {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.albumContent {
+    padding: 2px;
+    flex-grow: 0;
+    flex-basis: calc(25% - 4px);
+}
+
+.albumCover {
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.albumTexts {
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--secondary-text-color);
+    height: calc(100% - 200px);
+    text-decoration: none;
+}
+
+.artistName {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .albumContent {
+        flex-basis: calc(50% - 4px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .albumContent {
+        flex-basis: calc(100% - 4px);
+        justify-content: center;
+    }
+}

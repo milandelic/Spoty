@@ -1,0 +1,27 @@
+.caption {
+    font-size: 24px;
+    padding: 10px 5px;
+}
+
+.artistContainer {
+    display: flex;
+    background-color: var(--secondary-background-color);
+    color: var(--text-color);
+    padding: 10px 5px;
+}
+
+.artistCaption {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.artistName {
+    font-weight: 400;
+}
+
+
+.artistSongsContainer {
+    border-bottom: solid 1px var(--secondary-border-color);
+    padding: 10px 5px;
+    cursor: pointer;
+}

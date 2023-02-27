@@ -1,0 +1,13 @@
+.logInContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logInButton {
+    background-color: var(--button-background-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: var(--border-radius);
+}
